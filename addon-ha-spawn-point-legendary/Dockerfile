@@ -3,7 +3,7 @@ FROM ${BUILD_FROM}
 
 ARG PAPERMC_VERSION="1.21.3"
 ARG PAPERMC_BUILD="26"
-ARG JAVA_VERSION="openjdk-17-jre-headless"
+ARG JAVA_VERSION="openjdk-18-jre-headless"
 
 # Set shell
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
